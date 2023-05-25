@@ -1,0 +1,76 @@
+/* Write your CSS here */
+
+@media (min-width: 768px) {
+  .bg-container {
+    height: 80vh;
+    width: 80vw;
+  }
+}
+
+@media (max-width: 769px) {
+  .bg-container {
+    height: 100vh;
+    width: 50vw;
+  }
+}
+
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  background-size: cover;
+  box-shadow: 0px 4px 16px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+
+.random-card-container {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 16px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 55vh;
+  width: 300px;
+  display: flex;
+  padding:30px
+  
+}
+
+.random-number-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bolder;
+  color: #0b69ff;
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 15px;
+  
+  color: #333333;
+  text-align: center;
+}
+
+.generate-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  border-radius: 10px;
+  outline: none;
+  height: 40px;
+  width: fit-content;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+}
+
+.random-number {
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: bolder;
+  color: #0b69ff;    
+}
